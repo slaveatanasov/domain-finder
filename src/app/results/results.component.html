@@ -1,0 +1,8 @@
+<div class="results" *ngIf='!loading'>
+  <h2 *ngIf="!loading">Results for: {{queryChild}}</h2>
+  <ul *ngIf="domainsData">
+    <li *ngFor="let domain of domainsData">{{domain.domain}}</li>
+  </ul>
+</div>
+
+<div class="results" *ngIf="loading"><h4>Loading...</h4></div>

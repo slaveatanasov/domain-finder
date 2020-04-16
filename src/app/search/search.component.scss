@@ -1,0 +1,23 @@
+.search-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.panel-item-input {
+  width: 350px;
+  margin: 0;
+  padding: 10px;
+}
+
+.panel-item-btn {
+  margin-left: 0.5rem;
+}
+
+p {
+  align-self: flex-start;
+  margin: 0;
+  padding: 5px;
+}

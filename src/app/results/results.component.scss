@@ -1,0 +1,24 @@
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  padding: 0;
+  margin: 20px 0 20px 0;
+}
+
+li {
+  list-style: none;
+  // border: 1px solid black;
+  background-color: f3f3f3;
+  border-bottom: none;
+  padding: 1rem;
+  box-shadow: 4px 4px 10px 1px rgba(0,0,0,0.27);
+}
+
+// li:last-child {
+//   border-bottom: 1px solid black;
+// }

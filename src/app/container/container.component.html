@@ -1,0 +1,5 @@
+<div class="container">
+  <h1>DOMAIN FINDER</h1>
+  <app-search (retrieveQuery)="getQuery($event)"></app-search>
+  <app-results [queryChild]='queryParent'></app-results>
+</div>
